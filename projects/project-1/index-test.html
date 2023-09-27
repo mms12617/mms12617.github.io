@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
 #header {
 
@@ -45,7 +48,7 @@ h2 {
 body{
   display: flex;
   flex-direction:column; 
-  font-family: arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 h3{
   color: #023047;
@@ -60,14 +63,10 @@ line-height: normal;
   align-items:center;
 }
 
-.hori-line{
-width: 630px;
-height: 17px;
-background: #EFA757;
-}
 .card{
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
+  padding: 2em;
 }
 #pa-atrractions{
 width:auto;
@@ -75,11 +74,78 @@ height: 72px;
 }
 
 p{
-color: #023047;
+color: #000000;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;}
+line-height: normal;
+}
+
+.line{
+  display: flex;
+  border-bottom: 4px solid #83caa9;
+  padding: 1em;
+}
+
+div {
+          text-align: left;
+          flex-direction: row;
+        }
+
+.row{
+  display:flex;
+  flex-direction: column;
+  width:100%; 
+}
+img {
+          border-radius: 22px;
+          align-items: center;
+          padding: 10px;
+        }
+
+        a {
+          text-transform: uppercase;
+          background-color: #efa757;
+          padding: 0.4em 0.2em 0.4em 0.2em;
+          text-decoration: none;
+          width: 197px;
+          height: 58px;
+        }
+
+footer{
+  width: 1976px;
+  height: 268px;
+  background: #023047;
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+#footerArt{
+  width: 78px;
+  height: 133px;
+  padding: 0px 32px;
+}
+h4{
+  color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 32px;
+}
+.header-right-child2{
+color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:auto;
+
+}
+
+#pa-attraction{
+align-items: center;
+}
 
     </style>
 </head>
@@ -96,18 +162,115 @@ line-height: normal;}
         <h2 class="header-right-child">CENTRAL PA DESTINATIONS</h2>
       </div>
       <div id="splashimage">
-        <img src="../../images/Project-1/PA-FOREST.jpg" alt="PA-FOREST">
+        <img src="../../images/Project-1/PA-FOREST2.jpg" alt="PA-FOREST">
       </div>
-     <div id="pa-attraction"></div>
+     <div id="pa-attraction">
+      <img src="../../images/Project-1/PA ATTRACTIONS BANNER.jpg" alt="PA ATTRACTIONS BANNER" width="3000" height="100">
+     </div>
+    </div>
+
+
+<div class="row">
+     <div class="line">
 <div class="card">
-  <img src="https://placehold.co/405x376" alt="rollercoaster" width="405" height="376">
+  <img src="../../images/Project-1/ROLLERCOASTER_IMAGE.jpg" alt="rollercoaster" width="405" height="376">
   <div class="card-text">  
     <h3>Hershey Park</h3>
     <p>A renowned amusement park featuring exciting rides, 
       live entertainment, and an opportunity to learn about chocolate making at Hershey's Chocolate World.</p>
+      <a href="#">Website</a>
   </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="line">
+<div class="card">
+ <img src="../../images/Project-1/CANON_IMAGE.jpg" alt="War Canon" width="405" height="376">
+ <div class="card-text">  
+   <h3>Gettysburg National Military Park</h3>
+   <p>Site of the pivotal Battle of Gettysburg during the Civil War, offering guided tours, historic monuments, and a visitor center with exhibits.</p>
+     <a href="#">Website</a>
+ </div>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="line">
+<div class="card">
+<img src="../../images/Project-1/CAPITOL_IMAGE.jpg" alt="Money With The Capitol On it" width="405" height="376">
+<div class="card-text">  
+ <h3>Pennsylvania State Capitol</h3>
+ <p>An impressive architectural gem in Harrisburg showcasing exquisite artwork, stunning interiors, and guided tours to learn about the state's government and history</p>
+   <a href="#">Website</a>
+</div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="line">
+<div class="card">
+<img src="../../images/Project-1/LAKE_IMAGE.jpg" alt="Lake" width="405" height="376">
+<div class="card-text">  
+ <h3>Raystown Lake</h3>
+ <p>A scenic reservoir near Huntingdon, offering boating, fishing, hiking, and camping amid picturesque landscapes and water activities.</p>
+   <a href="#">Website</a>
+</div>
+ </div>
+</div>
+
+
+
+<div class="row">
+  <div class="line">
+<div class="card">
+<img src="../../images/Project-1/TRAIN_IMAGE.jpg" alt="Train" width="405" height="376">
+<div class="card-text">  
+ <h3>Railroad Museum of Pennsylvania</h3>
+ <p>Located in Strasburg, this museum boasts an extensive collection of vintage locomotives, rail cars, and exhibits, showcasing the rich history of railroading.</p>
+   <a href="#">Website</a>
+</div>
+ </div>
+</div>
+
+
+
+<div class="row">
+  <div class="line">
+<div class="card">
+<img src="../../images/Project-1/MARKET_IMAGE.jpg" alt="Central York Market" width="405" height="376">
+<div class="card-text">  
+ <h3>Central Market York</h3>
+ <p>The oldest continuously operating farmers' market in the U.S., offering a bustling atmosphere, local produce, crafts, and diverse food vendors.</p>
+   <a href="#">Website</a>
+</div>
+ </div>
+</div>
 
 </div>
 
+
+
+<footer>
+  <svg id="footerArt" xmlns="http://www.w3.org/2000/svg" width="88" height="85" viewBox="0 0 88 85" fill="none">
+    <path d="M73.9464 4H14.75L21.7143 20.7546H5L23.8036 81H64.1964L83 20.7546H66.2857L73.9464 4Z" fill="#D6F2FF" stroke="#D6F2FF" stroke-width="7"/>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="4" height="94" viewBox="0 0 4 94" fill="none">
+    <path d="M2 0V94" stroke="#D6F2FF" stroke-opacity="0.5" stroke-width="4"/>
+  </svg>
+  <h4>PA TOURISM</h4>
+ <h5 class="header-right-child2">CENTRAL PA DESTINATIONS</h5>
+</footer>
+
+
+
+
+
+
+
+
+
+    
+    
 </body>
 </html>
