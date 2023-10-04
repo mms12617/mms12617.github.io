@@ -1,0 +1,49 @@
+#header{
+background-color: lightgoldenrodyellow;
+}
+#header2{
+background-color: lightsalmon;
+}
+#header3{
+background-color: royalblue;
+
+}
+
+
+
+
+h1{
+
+ font-size: 64px;
+
+}
+
+h2{
+
+    font-size: 40px;
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+p{
+font-size:30px;
+}
+
+ul{
+font-size:25px;
+
+
+}
+
+ol{
+font-size:25px;
+
+}
+
+h4:hover, a:hover {
+    background-color: blue;
+  }
