@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Hind Madurai",arial;
+}
+h4{
+font-weight: 500;
+font-size: 40px;
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #5f3922;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    background-color: #FDEED9;
+
+}
+
+#logo-image {
+    max-height: 148px;
+    width: auto;
+}
+
+#pink-ribbon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 10px;
+    background-color: #FAA2B2;
+}
+
+#steps-row {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    min-height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #A98360;
+    border: 5px solid #A98360;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+#purpleheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #893F6C;
+    padding-top: 20px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    min-height: 540px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff5e8;
+    border-radius: 2%;
+    
+}
+
+#teddybear-img {
+    max-height: 390px;
+    width: auto;
+    padding-left: 70px;
+}
+
+#card-img-div {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 38%;
+    min-height: 390px;
+    align-items: center;
+    justify-content: center;
+}
+#card-img-div2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 38%;
+    min-height: 390px;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    left: 50%;
+    transform: translate(-50%, -5%);
+
+}
+
+#card-menu {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    min-height: 390px;
+    align-items: center;
+    justify-content: center;
+    color: #893F6C;
+    font-size:30px;
+}
+
+#start-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #893F6C;
+    margin-top: 20px;
+    font: size 24px;
+}
+
+#start-text {
+    background-color: #FAA2B2;
+    border-radius: 10%;
+    padding: 5px;
+}
+#text-box{
+background-color: transparent;
+}
+
+#buttons{
+display: flex;
+flex-direction: row;
+min-height: 30px;
+justify-content: space-between;
+}
+
+#previous{
+display: flex;
+flex-direction: row;
+background-color: #FAA2B2;
+border-radius: 10%;
+padding: 20px;
+justify-content: space-between;
+font-size: 15px;
+margin:20px;
+max-height: 15px;
+}
+
+#previous2{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAA2B2;
+    border-radius: 10%;
+    padding: 15px;
+    font-size: 15px;
+    margin:20px;
+    max-height: 15px;
+    justify-content: space-between;
+}
+
+#next{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAA2B2;
+    border-radius: 10%;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:20px;
+    max-height: 15px;
+}
+
+#next2{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAA2B2;
+    border-radius: 10%;
+    padding: 15px;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:20px;
+    max-height: 15px;
+}
+
+#cleanupimage{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 38%;
+    max-height: 500px;
+    max-width: 500px;
+    align-items: right;
+    justify-content: space-between;
+
+
+
+}
+
+a:link {
+    color: rgb(95, 14, 91);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(119, 77, 128);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
