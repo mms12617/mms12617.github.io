@@ -1,0 +1,65 @@
+.carousel-item {
+height: 550px;
+
+
+}
+
+#carousel {
+
+margin: 1em 0;
+padding-left: 1em;
+padding-right: 1em;
+
+}
+
+#navbarNav{
+display: flex;
+justify-content: right;
+
+
+}
+
+
+p{
+
+font-size: 1rem;
+display: flex;
+justify-content: right;
+
+
+}
+
+h2{
+
+    font-size: 2rem;
+    color: maroon;
+
+}
+
+ul{
+justify-content: left;
+
+
+}
+
+.accordion-body{
+display: flex;
+justify-content: right;
+
+}
+
+.navbar-brand{
+display: flex;
+color: maroon;
+
+
+}
+
+h1{
+font-size: 2rem;
+color: maroon;
+}
+.nav-link {
+
+color: maroon;
+}
