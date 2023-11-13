@@ -1,0 +1,459 @@
+.navbar-brand {
+    font-family: 'Farsan', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: right;
+    color: white;
+
+}
+
+.container-fluid {
+    background-color: #B82C65;
+
+}
+
+#bunny-logo {
+    max-width: 10rem;
+    max-height: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link {
+    color: white;
+
+}
+
+.nav-link active {
+    color: white;
+
+
+
+}
+
+#teddybear-img {
+    max-height: 390px;
+    width: auto;
+    padding-left: 70px;
+}
+
+#card-img-div {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 38%;
+    min-height: 390px;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    min-height: 540px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1%;
+
+}
+
+#card-menu {
+    padding-left: 2rem;
+}
+
+#title {
+    color: #520B54;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title {
+    display: flex;
+    justify-content: left;
+    color: #520B54;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50%;
+    padding-top: 20%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 20px;
+    padding-left: 50%;
+    padding-right: 10%;
+
+
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1B4965;
+    color: white;
+    height: 120px;
+    padding-left: 5%;
+    padding-top: 4%;
+
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 70%;
+
+   
+
+
+
+
+
+}
+
+#instagram-icon {
+    display: flex;
+    width: 44px;
+    height: 50px;
+
+
+
+}
+
+
+#facebook-icon {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+}
+
+
+#tiktok-icon {
+    display: flex;
+    width: 37px;
+    height: 42px;
+}
+
+.container text-center{
+display: flex;
+flex-direction: row;
+
+
+}
+
+@media (max-width:600px) {
+    .navbar-brand {
+       width: 100%;
+       height:100%;
+    }
+    
+    #navbarNav {
+
+        width: 100%;
+        height:100%;
+    }
+    
+    .container-fluid {
+        width: 100%;
+        height:100%;
+    
+    }
+    
+    #bunny-logo {
+        width: 100%;
+       height:100%;
+    }
+    
+    .nav-link {
+        width: 100%;
+        height:100%;
+    
+    }
+    
+    .nav-link active {
+        width: 100%;
+        height:100%;;
+    
+    
+    
+    }
+    
+    #teddybear-img {
+        width: 100%;
+        height:100%;
+    }
+    
+    #card-img-div {
+        width: 100%;
+        height:100%;
+    }
+    
+    #card {
+        width: 100%;
+        height:100%;
+    
+    }
+    
+    #card-menu {
+        width: 100%;
+        height:100%;
+    }
+    
+    #title {
+        width: 100%;
+        height:100%;
+    }
+    
+    .card-title {
+        width: 100%;
+        height:100%;
+    }
+    
+    .card-text {
+        width: 100%;
+        height:100%;
+    
+    
+    }
+    
+    footer {
+        width: 100%;
+        height:100%;
+    
+    }
+    
+    .social-media-icons {
+        width: 100%;
+        height:100%;
+       
+    
+    
+    
+    
+    
+    }
+    
+    #instagram-icon {
+        width: 100%;
+        height:100%;
+    
+    
+    }
+    
+    
+    #facebook-icon {
+        width: 100%;
+       height:100%;
+    
+    }
+    
+    
+    #tiktok-icon {
+        width: 100%;
+        height:100%;
+    }
+    
+    .container text-center{
+        width: 100%;
+        height:100%;
+    
+    
+    }
+
+
+
+
+
+
+}
+
+
+@media (min-width:601px) {
+
+    .navbar-brand {
+        font-family: 'Farsan', cursive;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    #navbarNav {
+        display: flex;
+        justify-content: right;
+        color: white;
+    
+    }
+    
+    .container-fluid {
+        background-color: #B82C65;
+    
+    }
+    
+    #bunny-logo {
+        max-width: 10rem;
+        max-height: 10rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .nav-link {
+        color: white;
+    
+    }
+    
+    .nav-link active {
+        color: white;
+    
+    
+    
+    }
+    
+    #teddybear-img {
+        max-height: 390px;
+        width: auto;
+        padding-left: 70px;
+    }
+    
+    #card-img-div {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 38%;
+        min-height: 390px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #card {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: auto;
+        min-height: 540px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 1%;
+    
+    }
+    
+    #card-menu {
+        padding-left: 2rem;
+    }
+    
+    #title {
+        color: #520B54;
+        font-family: 'Just Another Hand', cursive;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .card-title {
+        display: flex;
+        justify-content: left;
+        color: #520B54;
+        font-family: 'Just Another Hand', cursive;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 50%;
+        padding-top: 20%;
+    }
+    
+    .card-text {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        font-size: 20px;
+        padding-left: 50%;
+        padding-right: 10%;
+    
+    
+    
+    
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #1B4965;
+        color: white;
+        height: 120px;
+        padding-left: 5%;
+        padding-top: 4%;
+    
+    }
+    
+    .social-media-icons {
+        display: flex;
+        flex-direction: row;
+    
+        padding-left: 70%;
+    
+       
+    
+    
+    
+    
+    
+    }
+    
+    #instagram-icon {
+        display: flex;
+        width: 44px;
+        height: 50px;
+    
+    
+    
+    }
+    
+    
+    #facebook-icon {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+    
+    }
+    
+    
+    #tiktok-icon {
+        display: flex;
+        width: 37px;
+        height: 42px;
+    }
+    
+    .container text-center{
+    display: flex;
+    flex-direction: row;
+    
+    
+    }
+
+
+}
