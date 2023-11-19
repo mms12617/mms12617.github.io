@@ -162,143 +162,20 @@ flex-direction: row;
 
 }
 
-@media (max-width:600px) {
+
+
+@media (max-width:765px) {
     .navbar-brand {
-       width: 100%;
-       height:100%;
-    }
-    
-    #navbarNav {
 
-        width: 100%;
-        height:100%;
-    }
-    
-    .container-fluid {
-        width: 100%;
-        height:100%;
-    
-    }
-    
-    #bunny-logo {
-        width: 100%;
-       height:100%;
-    }
-    
-    .nav-link {
-        width: 100%;
-        height:100%;
-    
-    }
-    
-    .nav-link active {
-        width: 100%;
-        height:100%;;
-    
-    
-    
-    }
-    
-    #teddybear-img {
-        width: 100%;
-        height:100%;
-    }
-    
-    #card-img-div {
-        width: 100%;
-        height:100%;
-    }
-    
-    #card {
-        width: 100%;
-        height:100%;
-    
-    }
-    
-    #card-menu {
-        width: 100%;
-        height:100%;
-    }
-    
-    #title {
-        width: 100%;
-        height:100%;
-    }
-    
-    .card-title {
-        width: 100%;
-        height:100%;
-    }
-    
-    .card-text {
-        width: 100%;
-        height:100%;
-    
-    
-    }
-    
-    footer {
-        width: 100%;
-        height:100%;
-    
-    }
-    
-    .social-media-icons {
-        width: 100%;
-        height:100%;
-       
-    
-    
-    
-    
-    
-    }
-    
-    #instagram-icon {
-        width: 100%;
-        height:100%;
-    
-    
-    }
-    
-    
-    #facebook-icon {
-        width: 100%;
-       height:100%;
-    
-    }
-    
-    
-    #tiktok-icon {
-        width: 100%;
-        height:100%;
-    }
-    
-    .container text-center{
-        width: 100%;
-        height:100%;
-    
-    
-    }
-
-
-
-
-
-
-}
-
-
-@media (min-width:601px) {
-
-    .navbar-brand {
+        display: block;
         font-family: 'Farsan', cursive;
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     #navbarNav {
         display: flex;
+        display:block;
         justify-content: right;
         color: white;
     
@@ -310,12 +187,12 @@ flex-direction: row;
     }
     
     #bunny-logo {
-        max-width: 10rem;
-        max-height: 10rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        max-width: 7rem;
+        max-height: 7rem;
+        padding-left: 1em;
+        padding-right: 20px;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
     
     .nav-link {
@@ -331,6 +208,8 @@ flex-direction: row;
     }
     
     #teddybear-img {
+        display: flex;
+        display: block;
         max-height: 390px;
         width: auto;
         padding-left: 70px;
@@ -338,6 +217,7 @@ flex-direction: row;
     
     #card-img-div {
         display: flex;
+        display: block;
         flex-direction: row;
         flex-basis: 38%;
         min-height: 390px;
@@ -347,7 +227,7 @@ flex-direction: row;
     
     #card {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 60%;
         margin: auto;
         min-height: 540px;
@@ -366,7 +246,7 @@ flex-direction: row;
     #title {
         color: #520B54;
         font-family: 'Just Another Hand', cursive;
-        font-size: 48px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -377,7 +257,7 @@ flex-direction: row;
         justify-content: left;
         color: #520B54;
         font-family: 'Just Another Hand', cursive;
-        font-size: 48px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -389,7 +269,7 @@ flex-direction: row;
         display: flex;
         flex-direction: row;
         color: black;
-        font-size: 20px;
+        font-size: 8px;
         padding-left: 50%;
         padding-right: 10%;
     
@@ -403,9 +283,10 @@ flex-direction: row;
         flex-direction: row;
         background-color: #1B4965;
         color: white;
-        height: 120px;
+        height: 100px;
         padding-left: 5%;
         padding-top: 4%;
+        font-size: 10px;
     
     }
     
@@ -425,8 +306,8 @@ flex-direction: row;
     
     #instagram-icon {
         display: flex;
-        width: 44px;
-        height: 50px;
+        width: 22px;
+        height: 25px;
     
     
     
@@ -435,8 +316,8 @@ flex-direction: row;
     
     #facebook-icon {
         display: flex;
-        width: 44px;
-        height: 44px;
+        width: 22px;
+        height: 22px;
         flex-shrink: 0;
     
     }
@@ -444,8 +325,8 @@ flex-direction: row;
     
     #tiktok-icon {
         display: flex;
-        width: 37px;
-        height: 42px;
+        width: 17px;
+        height: 21px;
     }
     
     .container text-center{
@@ -454,6 +335,13 @@ flex-direction: row;
     
     
     }
+    
+
+
+
+
 
 
 }
+
+
