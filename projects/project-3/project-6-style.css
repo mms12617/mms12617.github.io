@@ -122,7 +122,7 @@ footer {
 
     padding-left: 70%;
 
-   
+
 
 
 
@@ -155,12 +155,22 @@ footer {
     height: 42px;
 }
 
-.container text-center{
-display: flex;
-flex-direction: row;
+.container text-center {
+    display: flex;
+    flex-direction: row;
 
 
 }
+
+#Text-Box {
+    font-size: 20px;
+
+
+
+
+
+}
+
 
 
 
@@ -172,20 +182,20 @@ flex-direction: row;
         color: white;
         font-size: 1rem;
     }
-    
+
     #navbarNav {
         display: flex;
-        display:block;
+        display: block;
         justify-content: right;
         color: white;
-    
+
     }
-    
+
     .container-fluid {
         background-color: #B82C65;
-    
+
     }
-    
+
     #bunny-logo {
         max-width: 7rem;
         max-height: 7rem;
@@ -194,19 +204,19 @@ flex-direction: row;
         padding-top: 1em;
         padding-bottom: 1em;
     }
-    
+
     .nav-link {
         color: white;
-    
+
     }
-    
+
     .nav-link active {
         color: white;
-    
-    
-    
+
+
+
     }
-    
+
     #teddybear-img {
         display: flex;
         display: block;
@@ -214,7 +224,7 @@ flex-direction: row;
         width: auto;
         padding-left: 70px;
     }
-    
+
     #card-img-div {
         display: flex;
         display: block;
@@ -224,7 +234,7 @@ flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    
+
     #card {
         display: flex;
         flex-direction: column;
@@ -236,13 +246,14 @@ flex-direction: row;
         align-items: center;
         justify-content: space-between;
         border-radius: 1%;
-    
+        font-size: 15px;
+
     }
-    
+
     #card-menu {
         padding-left: 2rem;
     }
-    
+
     #title {
         color: #520B54;
         font-family: 'Just Another Hand', cursive;
@@ -251,7 +262,7 @@ flex-direction: row;
         font-weight: 400;
         line-height: normal;
     }
-    
+
     .card-title {
         display: flex;
         justify-content: left;
@@ -264,7 +275,7 @@ flex-direction: row;
         padding-left: 50%;
         padding-top: 20%;
     }
-    
+
     .card-text {
         display: flex;
         flex-direction: row;
@@ -272,12 +283,24 @@ flex-direction: row;
         font-size: 8px;
         padding-left: 50%;
         padding-right: 10%;
-    
-    
-    
-    
+
+       
+
+
+
     }
-    
+
+
+    #Text-Box{
+
+font-size: 10px;
+
+
+
+
+
+    }
+
     footer {
         display: flex;
         flex-direction: row;
@@ -287,55 +310,55 @@ flex-direction: row;
         padding-left: 5%;
         padding-top: 4%;
         font-size: 10px;
-    
+
     }
-    
+
     .social-media-icons {
         display: flex;
         flex-direction: row;
-    
+
         padding-left: 70%;
-    
-       
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     }
-    
+
     #instagram-icon {
         display: flex;
         width: 22px;
         height: 25px;
-    
-    
-    
+
+
+
     }
-    
-    
+
+
     #facebook-icon {
         display: flex;
         width: 22px;
         height: 22px;
         flex-shrink: 0;
-    
+
     }
-    
-    
+
+
     #tiktok-icon {
         display: flex;
         width: 17px;
         height: 21px;
     }
-    
-    .container text-center{
-    display: flex;
-    flex-direction: row;
-    
-    
+
+    .container text-center {
+        display: flex;
+        flex-direction: row;
+
+
     }
-    
+
 
 
 
@@ -343,5 +366,3 @@ flex-direction: row;
 
 
 }
-
-
